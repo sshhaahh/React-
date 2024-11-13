@@ -24,7 +24,7 @@ function App() {
       </div>
       <div className="bg-white flex flex-row justify-center items-center gap-12 py-2 rounded-sm text-[25px] text-[#1e2f4a]">
         <button className='px-5 border-r-2 text-[30px] border-black' onClick={decHandler}>-</button>
-        <div className='w-7 flex items-center justify-center'>{count}</div>
+        <div className='w-7 flex font-bold text-[30px] items-center justify-center'>{count}</div>
         <button className='px-5 border-l-2 border-black ' onClick={incHandler}>+</button>
       </div>
       <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700" onClick={resetHandler}>Reset</button>
